@@ -18,7 +18,7 @@ We recommend using an application provided by your hardware vendor to manage key
 
 ### Setup
 
-To get started, insert a key to your computer and run the `cosign generate-key` command.
+To get started, insert a key to your computer and run the `cosign piv-tool generate-key` command.
 We recommend using the `--random-management-key=true` flag.
 
 This command generates a cryptographically-random management key and configures the device to use it.
